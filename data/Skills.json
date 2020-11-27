@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Frontend Development",
+        "icon": "https://www.flaticon.com/svg/static/icons/svg/1055/1055687.svg",
+        "about": "I can build a beautiful web Page using HTML, CSS and Javascript"
+    },
+    {
+        "title": "Frontend Development By React JS",
+        "icon": "https://www.flaticon.com/premium-icon/icons/svg/1183/1183672.svg",
+        "about": "I can build a beautiful  Single Page Website and React.js"
+    },
+    {
+        "title": "Backend Development",
+        "icon": "https://www.flaticon.com/svg/static/icons/svg/2166/2166823.svg",
+        "about": "Backend Development BY django and SQLlite"
+    },
+    {
+        "title": "API Development",
+        "icon": "https://www.flaticon.com/svg/static/icons/svg/627/627558.svg",
+        "about": "API Development REST API using django-rest-api"
+    },
+    {
+        "title": "Android App Ui UX Design",
+        "icon": "https://www.flaticon.com/svg/static/icons/svg/2721/2721305.svg",
+        "about": "Android App design by Flutter"
+    },
+    {
+        "title": "Android App Developed",
+        "icon": "https://www.flaticon.com/premium-icon/icons/svg/3098/3098002.svg",
+        "about": "Android app devalopment By Django Rest API and Flutter"
+    }
+]

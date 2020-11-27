@@ -1,0 +1,21 @@
+.projects{
+    height: 70vh;
+    overflow-y: scroll;
+}
+.projects__navbar{
+    padding: 10px;
+    border-bottom: 5px solid green;
+    margin-bottom: 10px;
+}
+.projects__nav_item{
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 10px;
+}
+.projects__nav_item:hover{
+    color: turquoise;
+}
+.projects__nav_item_active{
+    color: turquoise;
+}

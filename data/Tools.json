@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Git",
+        "icon": "react",
+        "level": "60"
+    },
+    {
+        "name": "VS Code",
+        "icon": "react",
+        "level": "70"
+    },
+    {
+        "icon": "Pycharm",
+        "name": "Illustrator",
+        "level": "60"
+    }
+]

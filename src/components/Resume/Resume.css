@@ -1,0 +1,14 @@
+.resume{
+    height: 85vh;
+    overflow-y: scroll;
+}
+.resume__item{
+    padding: 10px;
+}
+
+.bar{
+    margin: 15px 0;
+}
+.bar__icon{
+    width: 30px;
+}

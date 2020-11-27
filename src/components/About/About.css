@@ -1,0 +1,24 @@
+.about{
+    height: 86vh;
+    overflow-y: scroll;
+}
+.about__docs p{
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.about__allSkills{
+    padding: 10px;
+    background-color: rgb(218, 218, 218);
+}
+.about__singleSkill{
+    display: flex;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+} 
+.about__skill_image img{
+    width: 40px;
+    margin: 0 10px;
+}

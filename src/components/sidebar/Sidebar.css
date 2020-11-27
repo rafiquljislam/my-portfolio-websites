@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
+
+
+.sidebar{
+    text-align: center;
+    padding:10px;
+    height: 90vh;
+}
+.sidebar__image img{
+    width: 100px;
+    border-radius: 20px ;
+}
+.sidebar__name{
+    padding: 10px;
+    font-family: 'Kaushan Script';
+}
+.sidebar__title{
+    padding: 10px;
+    background-color: rgb(141, 141, 141);
+    border-radius: 30px;
+    margin: 10px 0;
+}
+.sidebar__socialbutton i{
+    font-size: 40px;
+    padding: 10px;
+}
+.sodebar__address{
+    background-color: rgb(71, 71, 71);
+    padding: 10px 0;
+    border-radius: 20px;
+    color: white;
+}

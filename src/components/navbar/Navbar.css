@@ -1,0 +1,30 @@
+.navbar__items{
+    display: flex;
+    padding: 10px;
+}
+.navbar__item{
+    padding:0  10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.navbar__item:hover{
+    border-bottom: 4px solid green;
+    font-weight: bold;
+}
+.navbar__irems{
+    font-size: 18px !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar__irems:hover{
+    border-bottom: 3px solid green;
+    color: green !important;
+}
+.active{
+    color: green !important;
+}
+.navbar-brand{
+    font-size: 30px !important;
+    border-bottom: 5px solid green;
+
+}
