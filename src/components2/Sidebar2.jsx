@@ -40,7 +40,7 @@ const Sidebar2 = () => {
                 <img className="rounded-circle" src={about.imgage} alt="" />
                 <h3>{about.name}</h3>
                 <button type="button" class="btn btn-primary mb-2">{about.title}</button>
-                <button type="button" class="btn btn-success">Dounloda CV</button>
+                <a href={about.cv} type="button" class="btn btn-success">Dounloda CV</a>
             </div>
             <div className="sidebar2__button_container">
                 <div className="sidebar2__button">
