@@ -22,7 +22,7 @@ const Bar = ({ name, level }) => {
     return (
         <div className="bar">
             <div class="progress" style={{ height: "30px" }}>
-                <div class={`progress-bar progress-bar-striped progress-bar-animated  ${list[number]}`} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: `${level}%` }}>
+                <div class={`progress-bar progress-bar-striped ${list[number]}`} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: `${level}%` }}>
                     {name}
                 </div>
             </div>
