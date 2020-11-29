@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import SidebarButtons from './SidebarButtons'
 
 const Sidebar2 = () => {
-    const getLucation = useLocation()
-    const location = getLucation.pathname;
     const [about, setAbout] = useState({})
     useEffect(() => {
         const url = "https://raw.githubusercontent.com/rafiquljislam/Portfolio-Admin-Panel/main/About.json";
@@ -40,25 +38,7 @@ const Sidebar2 = () => {
                 <img className="rounded-circle" src={about.imgage} alt="" />
                 <h3>{about.name}</h3>
                 <button type="button" class="btn btn-primary mb-2">{about.title}</button>
-                <a href={about.cv} type="button" class="btn btn-success">Dounloda CV</a>
-            </div>
-            <div className="sidebar2__button_container">
-                <div className="sidebar2__button">
-                    <Link to="/">
-                        <i class={`fa fa-home ${location === '/' && "sidebar2__button_active"}`} aria-hidden="true"></i>
-                    </Link>
-                </div>
-                <div className="sidebar2__button">
-                    <Link to="/resume">
-                        {/* <i class={`fa fa-file ${location === '/resume' && "sidebar2__button_active"}`} aria-hidden="true"></i> */}
-                        <i class={`fa fa-address-card-o ${location === '/resume' && "sidebar2__button_active"}`} aria-hidden="true"></i>
-                    </Link>
-                </div>
-                <div className="sidebar2__button">
-                    <Link to="/projects">
-                        <i class={`fa fa-database ${location === '/projects' && "sidebar2__button_active"}`} aria-hidden="true"></i>
-                    </Link>
-                </div>
+                <a href={about.cv} type="button" class="btn btn-success">{"Dounloda CV".toUpperCase()}</a>
             </div>
         </motion.div>
     )

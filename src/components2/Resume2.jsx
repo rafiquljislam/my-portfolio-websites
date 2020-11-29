@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import Bar from '../components/Resume/Bar';
-import ContentHeader from './ContentHeader'
 import { motion } from 'framer-motion'
 
 
@@ -10,6 +9,19 @@ const Resume2 = () => {
     const [exprience, setExprience] = useState([]);
     const [language, setLanguage] = useState([]);
     const [tools, setTools] = useState([]);
+    const [resume, setResumetitle] = useState({});
+
+    useEffect(() => {
+        const url = "https://raw.githubusercontent.com/rafiquljislam/Portfolio-Admin-Panel/main/About.json";
+        async function featchdata() {
+            await fetch(url, { method: "GET" })
+                .then((respon) => respon.json())
+                .then((data) => setResumetitle(data))
+        }
+        featchdata();
+    }, [])
+
+
 
     useEffect(() => {
         let url = "https://raw.githubusercontent.com/rafiquljislam/Portfolio-Admin-Panel/main/Education.json";
@@ -88,8 +100,15 @@ const Resume2 = () => {
             initial='hidden'
             animate='visible'
         >
-            <ContentHeader title="Resume" social="resume" />
             <div className="resume__content__header">
+                <div className="resume_header__title__head">
+                    <div className="resume_header__title__head__icon">
+                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                    </div>
+                    <div className="resume_header__title__head__text">
+                        {resume.resumetitle}
+                    </div>
+                </div>
                 <div className="row m-0 p-0">
                     <div className="col-md-6">
                         <div className="resume__content__title">Education</div>

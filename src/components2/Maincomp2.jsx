@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import ContentHeader from './ContentHeader'
 import { motion } from 'framer-motion'
 
 
@@ -50,7 +49,6 @@ const Maincomp2 = () => {
     }
     return (
         <>
-            <ContentHeader title="About Me" social="true" />
             <motion.div className="container p-0"
                 variants={about_variant}
                 initial='hidden'

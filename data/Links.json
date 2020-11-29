@@ -1,0 +1,43 @@
+[
+    {
+        "title":"Email",
+        "link":"codewithrafiq@gmail.com",
+        "image":"https://cdn.icon-icons.com/icons2/2170/PNG/512/gmail_google_mail_email_icon_133230.png"
+    },
+    {
+        "title":"Phone",
+        "link":"+88 01714833985",
+        "image":"https://cdn4.iconfinder.com/data/icons/social-media-2097/94/phone-512.png"
+    },
+    {
+        "title":"Facebook",
+        "link":"https://www.facebook.com/codewithrafiq/",
+        "image":"https://i.pinimg.com/originals/d2/e5/35/d2e5359f8402cb8d3d7b22c463f9013b.png"
+        
+    },
+    {
+        "title":"Instragram",
+        "link":"https://www.instagram.com/codewithrafiq/",
+        "image":"https://play-lh.googleusercontent.com/h9jWMwqb-h9hjP4THqrJ50eIwPekjv7QPmTpA85gFQ10PjV02CoGAcYLLptqd19Sa1iJ"
+        
+    },
+    {
+        "title":"Linkdin",
+        "link":"https://www.linkedin.com/in/codewithrafiq/",
+        "image":"https://www.downsyndrome.org.au/wp-content/uploads/sites/2/2020/03/li.png"
+        
+    },
+    {
+        "title":"Github",
+        "link":"https://github.com/rafiquljislam",
+        "image":"https://github.githubassets.com/images/modules/logos_page/Octocat.png"
+        
+    },
+    {
+        "title":"WebSite",
+        "link":"https://codewithrafiq.github.io",
+        "image":"https://www.kindpng.com/picc/m/455-4556924_website-icon-pink-png-png-download-website-icon.png"
+        
+    }
+
+]
